@@ -18,25 +18,25 @@
 
 ```objective-c
 //OldImage  原图
-	//ShowSize  将要显示的分辨率
-	//FileSize  文件大小限制
-	//DataBlock 压缩成功后返回的block (使用block的结果，记得按需获取主线程)
-	+(void)CompressToDataAtBackgroundWithImage:(UIImage *)OldImage
-                                      ShowSize:(CGSize)ShowSize
-                                      FileSize:(NSInteger)FileSize
-                                         block:(DataBlock)DataBlock;
+//ShowSize  将要显示的分辨率
+//FileSize  文件大小限制
+//DataBlock 压缩成功后返回的block (使用block的结果，记得按需获取主线程)
++(void)CompressToDataAtBackgroundWithImage:(UIImage *)OldImage
+                                  ShowSize:(CGSize)ShowSize
+                                  FileSize:(NSInteger)FileSize
+                                     block:(DataBlock)DataBlock;
 ```
 ######后台压缩得到 目标大小的 UIImage
 
 ```objective-c
 //OldImage 原图
-	//ShowSize 将要显示的分辨率
-	//FileSize 文件大小限制
-	//ImgBlock 压缩成功后返回的block (使用block的结果，记得按需获取主线程)
-	+(void)CompressToImageAtBackgroundWithImage:(UIImage *)OldImage
-                                        ShowSize:(CGSize)ShowSize
-                                        FileSize:(NSInteger)FileSize
-                                           block:(ImgBlock)ImgBlock;
+//ShowSize 将要显示的分辨率
+//FileSize 文件大小限制
+//ImgBlock 压缩成功后返回的block (使用block的结果，记得按需获取主线程)
++(void)CompressToImageAtBackgroundWithImage:(UIImage *)OldImage
+                                   ShowSize:(CGSize)ShowSize
+                                   FileSize:(NSInteger)FileSize
+                                      block:(ImgBlock)ImgBlock;
 ```
 <br />
 
@@ -45,18 +45,18 @@
 ######压缩得到 目标大小的 图片Data
 ```objective-c
 //OldImage 原图
-	//ShowSize 将要显示的分辨率
-	//FileSize 文件大小限制
-	+(NSData *)CompressToDataWithImage:(UIImage *)OldImage
+//ShowSize 将要显示的分辨率
+//FileSize 文件大小限制
++(NSData *)CompressToDataWithImage:(UIImage *)OldImage
                           ShowSize:(CGSize)ShowSize
                           FileSize:(NSInteger)FileSize;
 ```
 ######压缩得到 目标大小的 UIImage
 ```objective-c
 //OldImage 原图
-	//ShowSize 将要显示的分辨率
-	//FileSize 文件大小限制
-	+(UIImage *)CompressToImageWithImage:(UIImage *)OldImage
+//ShowSize 将要显示的分辨率
+//FileSize 文件大小限制
++(UIImage *)CompressToImageWithImage:(UIImage *)OldImage
                             ShowSize:(CGSize)ShowSize
                             FileSize:(NSInteger)FileSize;
 ```
@@ -66,6 +66,7 @@
 #####只压不缩--按UIImage大小压缩，返回UIImage
 - **优点**：不影响分辨率，不太影响清晰度
 - **缺点**：存在最小限制，可能压不到目标大小
+
 ```objective-c
 + (UIImage *)OnlyCompressToImageWithImage:(UIImage *)OldImage
                                  FileSize:(NSInteger)FileSize;
@@ -74,6 +75,7 @@
 #####只压不缩--按NSData大小压缩，返回NSData
 - **优点**：不影响分辨率，不太影响清晰度
 - **缺点**：存在最小限制，可能压不到目标大小
+
 ```objective-c
 + (NSData *)OnlyCompressToDataWithImage:(UIImage *)OldImage
                                FileSize:(NSInteger)FileSize;
