@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		951E772B1D597ACC00D1E1BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E772A1D597ACC00D1E1BD /* main.m */; };
+		951E772E1D597ACC00D1E1BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E772D1D597ACC00D1E1BD /* AppDelegate.m */; };
+		951E77311D597ACC00D1E1BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E77301D597ACC00D1E1BD /* ViewController.m */; };
+		951E77341D597ACC00D1E1BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951E77321D597ACC00D1E1BD /* Main.storyboard */; };
+		951E77361D597ACC00D1E1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951E77351D597ACC00D1E1BD /* Assets.xcassets */; };
+		951E77391D597ACC00D1E1BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951E77371D597ACC00D1E1BD /* LaunchScreen.storyboard */; };
+		951E77441D597ACD00D1E1BD /* YQImageCompressorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E77431D597ACD00D1E1BD /* YQImageCompressorDemoTests.m */; };
+		951E774F1D597ACD00D1E1BD /* YQImageCompressorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E774E1D597ACD00D1E1BD /* YQImageCompressorDemoUITests.m */; };
+		951E775F1D597B1A00D1E1BD /* YQImageCompressTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E775E1D597B1A00D1E1BD /* YQImageCompressTool.m */; };
+		951E77621D59949500D1E1BD /* DemoShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E77611D59949500D1E1BD /* DemoShowViewController.m */; };
+		951E77641D5995B200D1E1BD /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 951E77631D5995B200D1E1BD /* test.png */; };
+		951E77671D599B2E00D1E1BD /* BackDataDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E77661D599B2E00D1E1BD /* BackDataDemo.m */; };
+		951E776A1D599B3F00D1E1BD /* BackImageDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E77691D599B3F00D1E1BD /* BackImageDemo.m */; };
+		951E776D1D599B7900D1E1BD /* FrontDataDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E776C1D599B7900D1E1BD /* FrontDataDemo.m */; };
+		951E77701D599B8500D1E1BD /* FrontImageDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E776F1D599B8500D1E1BD /* FrontImageDemo.m */; };
+		951E77731D599B9A00D1E1BD /* OnlyCompressImageDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E77721D599B9A00D1E1BD /* OnlyCompressImageDemo.m */; };
+		951E77761D599BB200D1E1BD /* OnlyCompressDataDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E77751D599BB200D1E1BD /* OnlyCompressDataDemo.m */; };
+		951E77791D599BC400D1E1BD /* OnlyResizeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E77781D599BC400D1E1BD /* OnlyResizeDemo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		951E77401D597ACD00D1E1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 951E771E1D597ACC00D1E1BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 951E77251D597ACC00D1E1BD;
+			remoteInfo = YQImageCompressorDemo;
+		};
+		951E774B1D597ACD00D1E1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 951E771E1D597ACC00D1E1BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 951E77251D597ACC00D1E1BD;
+			remoteInfo = YQImageCompressorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		951E77261D597ACC00D1E1BD /* YQImageCompressorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQImageCompressorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		951E772A1D597ACC00D1E1BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		951E772C1D597ACC00D1E1BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		951E772D1D597ACC00D1E1BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		951E772F1D597ACC00D1E1BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		951E77301D597ACC00D1E1BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		951E77331D597ACC00D1E1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		951E77351D597ACC00D1E1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		951E77381D597ACC00D1E1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		951E773A1D597ACC00D1E1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951E773F1D597ACD00D1E1BD /* YQImageCompressorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQImageCompressorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		951E77431D597ACD00D1E1BD /* YQImageCompressorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQImageCompressorDemoTests.m; sourceTree = "<group>"; };
+		951E77451D597ACD00D1E1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951E774A1D597ACD00D1E1BD /* YQImageCompressorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQImageCompressorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		951E774E1D597ACD00D1E1BD /* YQImageCompressorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQImageCompressorDemoUITests.m; sourceTree = "<group>"; };
+		951E77501D597ACD00D1E1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951E775D1D597B1A00D1E1BD /* YQImageCompressTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQImageCompressTool.h; sourceTree = "<group>"; };
+		951E775E1D597B1A00D1E1BD /* YQImageCompressTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQImageCompressTool.m; sourceTree = "<group>"; };
+		951E77601D59949500D1E1BD /* DemoShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoShowViewController.h; sourceTree = "<group>"; };
+		951E77611D59949500D1E1BD /* DemoShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoShowViewController.m; sourceTree = "<group>"; };
+		951E77631D5995B200D1E1BD /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		951E77651D599B2E00D1E1BD /* BackDataDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackDataDemo.h; sourceTree = "<group>"; };
+		951E77661D599B2E00D1E1BD /* BackDataDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackDataDemo.m; sourceTree = "<group>"; };
+		951E77681D599B3F00D1E1BD /* BackImageDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackImageDemo.h; sourceTree = "<group>"; };
+		951E77691D599B3F00D1E1BD /* BackImageDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackImageDemo.m; sourceTree = "<group>"; };
+		951E776B1D599B7900D1E1BD /* FrontDataDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontDataDemo.h; sourceTree = "<group>"; };
+		951E776C1D599B7900D1E1BD /* FrontDataDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontDataDemo.m; sourceTree = "<group>"; };
+		951E776E1D599B8500D1E1BD /* FrontImageDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontImageDemo.h; sourceTree = "<group>"; };
+		951E776F1D599B8500D1E1BD /* FrontImageDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontImageDemo.m; sourceTree = "<group>"; };
+		951E77711D599B9A00D1E1BD /* OnlyCompressImageDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlyCompressImageDemo.h; sourceTree = "<group>"; };
+		951E77721D599B9A00D1E1BD /* OnlyCompressImageDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlyCompressImageDemo.m; sourceTree = "<group>"; };
+		951E77741D599BB200D1E1BD /* OnlyCompressDataDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlyCompressDataDemo.h; sourceTree = "<group>"; };
+		951E77751D599BB200D1E1BD /* OnlyCompressDataDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlyCompressDataDemo.m; sourceTree = "<group>"; };
+		951E77771D599BC400D1E1BD /* OnlyResizeDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlyResizeDemo.h; sourceTree = "<group>"; };
+		951E77781D599BC400D1E1BD /* OnlyResizeDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlyResizeDemo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		951E77231D597ACC00D1E1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951E773C1D597ACD00D1E1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951E77471D597ACD00D1E1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		951E771D1D597ACC00D1E1BD = {
+			isa = PBXGroup;
+			children = (
+				951E775C1D597B1A00D1E1BD /* YQImageCompressor */,
+				951E77281D597ACC00D1E1BD /* YQImageCompressorDemo */,
+				951E77421D597ACD00D1E1BD /* YQImageCompressorDemoTests */,
+				951E774D1D597ACD00D1E1BD /* YQImageCompressorDemoUITests */,
+				951E77271D597ACC00D1E1BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		951E77271D597ACC00D1E1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				951E77261D597ACC00D1E1BD /* YQImageCompressorDemo.app */,
+				951E773F1D597ACD00D1E1BD /* YQImageCompressorDemoTests.xctest */,
+				951E774A1D597ACD00D1E1BD /* YQImageCompressorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		951E77281D597ACC00D1E1BD /* YQImageCompressorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				951E772C1D597ACC00D1E1BD /* AppDelegate.h */,
+				951E772D1D597ACC00D1E1BD /* AppDelegate.m */,
+				951E772F1D597ACC00D1E1BD /* ViewController.h */,
+				951E77301D597ACC00D1E1BD /* ViewController.m */,
+				951E77601D59949500D1E1BD /* DemoShowViewController.h */,
+				951E77611D59949500D1E1BD /* DemoShowViewController.m */,
+				951E77651D599B2E00D1E1BD /* BackDataDemo.h */,
+				951E77661D599B2E00D1E1BD /* BackDataDemo.m */,
+				951E77681D599B3F00D1E1BD /* BackImageDemo.h */,
+				951E77691D599B3F00D1E1BD /* BackImageDemo.m */,
+				951E776B1D599B7900D1E1BD /* FrontDataDemo.h */,
+				951E776C1D599B7900D1E1BD /* FrontDataDemo.m */,
+				951E776E1D599B8500D1E1BD /* FrontImageDemo.h */,
+				951E776F1D599B8500D1E1BD /* FrontImageDemo.m */,
+				951E77711D599B9A00D1E1BD /* OnlyCompressImageDemo.h */,
+				951E77721D599B9A00D1E1BD /* OnlyCompressImageDemo.m */,
+				951E77741D599BB200D1E1BD /* OnlyCompressDataDemo.h */,
+				951E77751D599BB200D1E1BD /* OnlyCompressDataDemo.m */,
+				951E77771D599BC400D1E1BD /* OnlyResizeDemo.h */,
+				951E77781D599BC400D1E1BD /* OnlyResizeDemo.m */,
+				951E77321D597ACC00D1E1BD /* Main.storyboard */,
+				951E77351D597ACC00D1E1BD /* Assets.xcassets */,
+				951E77371D597ACC00D1E1BD /* LaunchScreen.storyboard */,
+				951E773A1D597ACC00D1E1BD /* Info.plist */,
+				951E77291D597ACC00D1E1BD /* Supporting Files */,
+			);
+			path = YQImageCompressorDemo;
+			sourceTree = "<group>";
+		};
+		951E77291D597ACC00D1E1BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				951E77631D5995B200D1E1BD /* test.png */,
+				951E772A1D597ACC00D1E1BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		951E77421D597ACD00D1E1BD /* YQImageCompressorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				951E77431D597ACD00D1E1BD /* YQImageCompressorDemoTests.m */,
+				951E77451D597ACD00D1E1BD /* Info.plist */,
+			);
+			path = YQImageCompressorDemoTests;
+			sourceTree = "<group>";
+		};
+		951E774D1D597ACD00D1E1BD /* YQImageCompressorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				951E774E1D597ACD00D1E1BD /* YQImageCompressorDemoUITests.m */,
+				951E77501D597ACD00D1E1BD /* Info.plist */,
+			);
+			path = YQImageCompressorDemoUITests;
+			sourceTree = "<group>";
+		};
+		951E775C1D597B1A00D1E1BD /* YQImageCompressor */ = {
+			isa = PBXGroup;
+			children = (
+				951E775D1D597B1A00D1E1BD /* YQImageCompressTool.h */,
+				951E775E1D597B1A00D1E1BD /* YQImageCompressTool.m */,
+			);
+			path = YQImageCompressor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		951E77251D597ACC00D1E1BD /* YQImageCompressorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951E77531D597ACD00D1E1BD /* Build configuration list for PBXNativeTarget "YQImageCompressorDemo" */;
+			buildPhases = (
+				951E77221D597ACC00D1E1BD /* Sources */,
+				951E77231D597ACC00D1E1BD /* Frameworks */,
+				951E77241D597ACC00D1E1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQImageCompressorDemo;
+			productName = YQImageCompressorDemo;
+			productReference = 951E77261D597ACC00D1E1BD /* YQImageCompressorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		951E773E1D597ACD00D1E1BD /* YQImageCompressorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951E77561D597ACD00D1E1BD /* Build configuration list for PBXNativeTarget "YQImageCompressorDemoTests" */;
+			buildPhases = (
+				951E773B1D597ACD00D1E1BD /* Sources */,
+				951E773C1D597ACD00D1E1BD /* Frameworks */,
+				951E773D1D597ACD00D1E1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				951E77411D597ACD00D1E1BD /* PBXTargetDependency */,
+			);
+			name = YQImageCompressorDemoTests;
+			productName = YQImageCompressorDemoTests;
+			productReference = 951E773F1D597ACD00D1E1BD /* YQImageCompressorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		951E77491D597ACD00D1E1BD /* YQImageCompressorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951E77591D597ACD00D1E1BD /* Build configuration list for PBXNativeTarget "YQImageCompressorDemoUITests" */;
+			buildPhases = (
+				951E77461D597ACD00D1E1BD /* Sources */,
+				951E77471D597ACD00D1E1BD /* Frameworks */,
+				951E77481D597ACD00D1E1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				951E774C1D597ACD00D1E1BD /* PBXTargetDependency */,
+			);
+			name = YQImageCompressorDemoUITests;
+			productName = YQImageCompressorDemoUITests;
+			productReference = 951E774A1D597ACD00D1E1BD /* YQImageCompressorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		951E771E1D597ACC00D1E1BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ProblenChild;
+				TargetAttributes = {
+					951E77251D597ACC00D1E1BD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					951E773E1D597ACD00D1E1BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 951E77251D597ACC00D1E1BD;
+					};
+					951E77491D597ACD00D1E1BD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 951E77251D597ACC00D1E1BD;
+					};
+				};
+			};
+			buildConfigurationList = 951E77211D597ACC00D1E1BD /* Build configuration list for PBXProject "YQImageCompressorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 951E771D1D597ACC00D1E1BD;
+			productRefGroup = 951E77271D597ACC00D1E1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				951E77251D597ACC00D1E1BD /* YQImageCompressorDemo */,
+				951E773E1D597ACD00D1E1BD /* YQImageCompressorDemoTests */,
+				951E77491D597ACD00D1E1BD /* YQImageCompressorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		951E77241D597ACC00D1E1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951E77391D597ACC00D1E1BD /* LaunchScreen.storyboard in Resources */,
+				951E77361D597ACC00D1E1BD /* Assets.xcassets in Resources */,
+				951E77341D597ACC00D1E1BD /* Main.storyboard in Resources */,
+				951E77641D5995B200D1E1BD /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951E773D1D597ACD00D1E1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951E77481D597ACD00D1E1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		951E77221D597ACC00D1E1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951E77761D599BB200D1E1BD /* OnlyCompressDataDemo.m in Sources */,
+				951E77311D597ACC00D1E1BD /* ViewController.m in Sources */,
+				951E772E1D597ACC00D1E1BD /* AppDelegate.m in Sources */,
+				951E77701D599B8500D1E1BD /* FrontImageDemo.m in Sources */,
+				951E77791D599BC400D1E1BD /* OnlyResizeDemo.m in Sources */,
+				951E776D1D599B7900D1E1BD /* FrontDataDemo.m in Sources */,
+				951E77731D599B9A00D1E1BD /* OnlyCompressImageDemo.m in Sources */,
+				951E776A1D599B3F00D1E1BD /* BackImageDemo.m in Sources */,
+				951E772B1D597ACC00D1E1BD /* main.m in Sources */,
+				951E77671D599B2E00D1E1BD /* BackDataDemo.m in Sources */,
+				951E77621D59949500D1E1BD /* DemoShowViewController.m in Sources */,
+				951E775F1D597B1A00D1E1BD /* YQImageCompressTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951E773B1D597ACD00D1E1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951E77441D597ACD00D1E1BD /* YQImageCompressorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951E77461D597ACD00D1E1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951E774F1D597ACD00D1E1BD /* YQImageCompressorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		951E77411D597ACD00D1E1BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 951E77251D597ACC00D1E1BD /* YQImageCompressorDemo */;
+			targetProxy = 951E77401D597ACD00D1E1BD /* PBXContainerItemProxy */;
+		};
+		951E774C1D597ACD00D1E1BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 951E77251D597ACC00D1E1BD /* YQImageCompressorDemo */;
+			targetProxy = 951E774B1D597ACD00D1E1BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		951E77321D597ACC00D1E1BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				951E77331D597ACC00D1E1BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		951E77371D597ACC00D1E1BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				951E77381D597ACC00D1E1BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		951E77511D597ACD00D1E1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		951E77521D597ACD00D1E1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		951E77541D597ACD00D1E1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YQImageCompressorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.problenchild.YQImageCompressorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		951E77551D597ACD00D1E1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YQImageCompressorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.problenchild.YQImageCompressorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		951E77571D597ACD00D1E1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQImageCompressorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.problenchild.YQImageCompressorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQImageCompressorDemo.app/YQImageCompressorDemo";
+			};
+			name = Debug;
+		};
+		951E77581D597ACD00D1E1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQImageCompressorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.problenchild.YQImageCompressorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQImageCompressorDemo.app/YQImageCompressorDemo";
+			};
+			name = Release;
+		};
+		951E775A1D597ACD00D1E1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQImageCompressorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.problenchild.YQImageCompressorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQImageCompressorDemo;
+			};
+			name = Debug;
+		};
+		951E775B1D597ACD00D1E1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQImageCompressorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.problenchild.YQImageCompressorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQImageCompressorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		951E77211D597ACC00D1E1BD /* Build configuration list for PBXProject "YQImageCompressorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951E77511D597ACD00D1E1BD /* Debug */,
+				951E77521D597ACD00D1E1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951E77531D597ACD00D1E1BD /* Build configuration list for PBXNativeTarget "YQImageCompressorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951E77541D597ACD00D1E1BD /* Debug */,
+				951E77551D597ACD00D1E1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951E77561D597ACD00D1E1BD /* Build configuration list for PBXNativeTarget "YQImageCompressorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951E77571D597ACD00D1E1BD /* Debug */,
+				951E77581D597ACD00D1E1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951E77591D597ACD00D1E1BD /* Build configuration list for PBXNativeTarget "YQImageCompressorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951E775A1D597ACD00D1E1BD /* Debug */,
+				951E775B1D597ACD00D1E1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 951E771E1D597ACC00D1E1BD /* Project object */;
+}
