@@ -46,7 +46,7 @@ iOS端简易图片压缩工具
 //OldImage 原图
 	//ShowSize 将要显示的分辨率
 	//FileSize 文件大小限制
-	//ImgBlock 压缩成功后返回的block
+	//ImgBlock 压缩成功后返回的block (使用block的结果，记得按需获取主线程)
 	+(void)CompressToImageAtBackgroundWithImage:(UIImage *)OldImage
                                         ShowSize:(CGSize)ShowSize
                                         FileSize:(NSInteger)FileSize
