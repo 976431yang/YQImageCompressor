@@ -10,7 +10,18 @@
 
 
 
-####使用方法：直接拖到工程中使用
+####2种使用方法：
+-下载文件直接拖到工程中使用,然后：
+```objective-c
+#import "YQImageCompressTool.h"
+```
+-使用CocoaPods:
+```
+Podfile:pod 'YQImageCompressor', :git => 'https://github.com/976431yang/YQImageCompressor.git'
+```
+```objective-c
+#import "YQImageCompressTool.h"
+```
 -------------------
 
 
