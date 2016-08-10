@@ -24,6 +24,7 @@ Podfile:pod 'YQImageCompressor', :git => 'https://github.com/976431yang/YQImageC
 ```
 -------------------
 
+###调用目录：
 
 ####------------后台压缩（异步进行，不会卡住前台进程）
 ######后台压缩得到 目标大小的 图片Data
