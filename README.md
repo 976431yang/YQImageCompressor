@@ -1,4 +1,5 @@
 #YQImageCompressor
+[![Build Status](https://travis-ci.org/976431yang/YQImageCompressor.svg?branch=master)](https://travis-ci.org/976431yang/YQImageCompressor)
 ####微博：畸形滴小男孩
 
 #####iOS端简易图片压缩工具
