@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'YQImageCompressor'
-    s.version      = '0.0.1'
+    s.version      = '1.0.0'
     s.summary      = 'An Image Compress Tool for iOS.'
     s.homepage     = 'https://github.com/976431yang/YQImageCompressor'
     s.license      = 'MIT'
