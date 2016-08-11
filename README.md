@@ -20,7 +20,7 @@
 ```
 -使用CocoaPods:
 ```
-Podfile:pod 'YQImageCompressor', :git => 'https://github.com/976431yang/YQImageCompressor.git'
+Podfile: pod 'YQImageCompressor'
 ```
 ```objective-c
 #import "YQImageCompressTool.h"
