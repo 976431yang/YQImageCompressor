@@ -2,7 +2,6 @@
 [![Build Status](https://travis-ci.org/976431yang/YQImageCompressor.svg?branch=master)](https://travis-ci.org/976431yang/YQImageCompressor)
 [![Pod Version](https://img.shields.io/badge/pod-1.0.0-blue.svg)](http://cocoadocs.org/docsets/YQImageCompressor/)
 [![Pod Platform](https://img.shields.io/badge/platform-ios-lightgray.svg)](http://cocoadocs.org/docsets/YQImageCompressor/)
-[![Pod License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ####微博：畸形滴小男孩
 
