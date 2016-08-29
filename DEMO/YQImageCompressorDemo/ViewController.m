@@ -240,6 +240,7 @@
                 {
                     BackDataDemo *vc = [BackDataDemo new];
                     vc.titleStr = cell.textLabel.text;
+        
                     [self.navigationController pushViewController:vc animated:YES];
                 }
                     break;

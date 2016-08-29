@@ -16,7 +16,6 @@
 
 -(void)viewDidLoad{
     [super viewDidLoad];
-    
     [self compressImage];
 }
 
@@ -38,6 +37,7 @@
             self.title = self.titleStr;
             
             [self alertResult:[NSString stringWithFormat:@"压缩得到的NSData大小：%lu kb\n\n使用Data再次创建的UIImage的大小： %lu kb",[resultData length]/1024,[newIMGData length]/1024]];
+            
         });
         
     }];
