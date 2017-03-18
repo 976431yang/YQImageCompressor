@@ -1,11 +1,11 @@
-#YQImageCompressor
+# YQImageCompressor
 [![Build Status](https://travis-ci.org/976431yang/YQImageCompressor.svg?branch=master)](https://travis-ci.org/976431yang/YQImageCompressor)
 [![Pod Version](https://img.shields.io/badge/pod-1.0.0-blue.svg)](http://cocoadocs.org/docsets/YQImageCompressor/)
 [![Pod Platform](https://img.shields.io/badge/platform-ios-lightgray.svg)](http://cocoadocs.org/docsets/YQImageCompressor/)
 
-####微博：畸形滴小男孩
+#### 微博：畸形滴小男孩
 
-#####iOS端简易图片压缩工具
+##### iOS端简易图片压缩工具
 - 结合了`“只压不缩”`和`“只缩不压”`来做的`“压缩”`，在保证达到压缩目标的同时尽量保证图片质量
 - 由于尽可能得想要压缩出来的图片质量尽可能地高，可能压缩子程序要走很多遍，来找到最合适的情况。所以压缩耗时可能较长。推荐使用后台压缩方法
 - 根据不同的情况提供了两种压缩结果：1，压缩得到目标大小的NSData；2，压缩得到目标大小的UIImage
@@ -13,7 +13,7 @@
 
 
 
-####2种使用方法：
+#### 2种使用方法：
 -下载文件直接拖到工程中使用,然后：
 ```objective-c
 #import "YQImageCompressTool.h"
@@ -27,10 +27,10 @@ Podfile: pod 'YQImageCompressor'
 ```
 -------------------
 
-###调用目录：
+### 调用目录：
 
-####------------后台压缩（异步进行，不会卡住前台进程）
-######后台压缩得到 目标大小的 图片Data
+#### ------------后台压缩（异步进行，不会卡住前台进程）
+###### 后台压缩得到 目标大小的 图片Data
 
 ```objective-c
 //OldImage  原图
@@ -42,7 +42,7 @@ Podfile: pod 'YQImageCompressor'
                                   FileSize:(NSInteger)FileSize
                                      block:(DataBlock)DataBlock;
 ```
-######后台压缩得到 目标大小的 UIImage
+###### 后台压缩得到 目标大小的 UIImage
 
 ```objective-c
 //OldImage 原图
@@ -56,9 +56,9 @@ Podfile: pod 'YQImageCompressor'
 ```
 <br />
 
-####------------前台压缩（可能比较慢，造成当前进程卡住）
+#### ------------前台压缩（可能比较慢，造成当前进程卡住）
 
-######压缩得到 目标大小的 图片Data
+###### 压缩得到 目标大小的 图片Data
 ```objective-c
 //OldImage 原图
 //ShowSize 将要显示的分辨率
@@ -67,7 +67,7 @@ Podfile: pod 'YQImageCompressor'
                           ShowSize:(CGSize)ShowSize
                           FileSize:(NSInteger)FileSize;
 ```
-######压缩得到 目标大小的 UIImage
+###### 压缩得到 目标大小的 UIImage
 ```objective-c
 //OldImage 原图
 //ShowSize 将要显示的分辨率
@@ -78,8 +78,8 @@ Podfile: pod 'YQImageCompressor'
 ```
 <br /> 
  
-####------------细化调用方法
-#####只压不缩--按UIImage大小压缩，返回UIImage
+#### ------------细化调用方法
+##### 只压不缩--按UIImage大小压缩，返回UIImage
 - **优点**：不影响分辨率，不太影响清晰度
 - **缺点**：存在最小限制，可能压不到目标大小
 
@@ -88,7 +88,7 @@ Podfile: pod 'YQImageCompressor'
                                  FileSize:(NSInteger)FileSize;
 ```
 
-#####只压不缩--按NSData大小压缩，返回NSData
+##### 只压不缩--按NSData大小压缩，返回NSData
 - **优点**：不影响分辨率，不太影响清晰度
 - **缺点**：存在最小限制，可能压不到目标大小
 
@@ -97,7 +97,7 @@ Podfile: pod 'YQImageCompressor'
                                FileSize:(NSInteger)FileSize;
 ```
 
-#####只缩不压
+##### 只缩不压
 - **优点**：可以大幅降低容量大小
 - **缺点**：影响清晰度
 
