@@ -23,13 +23,13 @@
 -(void)compressImage{
     self.title = @"正在压缩..";
     
-    UIImage *newIMG = [YQImageCompressTool ResizeImageWithImage:self.oldIMG
-                                                        andSize:self.NewIMGSize
-                                                          Scale:NO];
+    UIImage *newIMG = [YQImageCompressTool resizeImageWithImage:self.oldIMG
+                                                        andSize:self.newIMGSize
+                                                          scale:NO];
     
     NSData *newIMGData = UIImageJPEGRepresentation(newIMG,1);
     
-    self.NewIMGV.image = newIMG;
+    self.newIMGV.image = newIMG;
     self.title = self.titleStr;
     
     [self alertResult:[NSString stringWithFormat:@"压缩得到的UIImage的大小： %lu kb",[newIMGData length]/1024]];

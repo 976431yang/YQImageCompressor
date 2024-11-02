@@ -14,17 +14,17 @@
 /**
  *  展示原图的IMGV
  */
-@property(nonatomic,strong)UIImageView *OldIMGV;
+@property(nonatomic,strong)UIImageView *oldIMGV;
 
 /**
  *  展示新图的IMGV
  */
-@property(nonatomic,strong)UIImageView *NewIMGV;
+@property(nonatomic,strong)UIImageView *newIMGV;
 
 /**
  *  新图片的尺寸，为了Demo效果更明显，将目标分辨率设大一些
  */
-@property(nonatomic)CGSize NewIMGSize;
+@property(nonatomic)CGSize newIMGSize;
 
 /**
  *  原图，此原图挺大的
