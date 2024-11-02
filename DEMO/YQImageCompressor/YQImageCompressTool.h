@@ -17,9 +17,9 @@ typedef void(^DataBlock)(NSData  *resultData);
 /**
  *  压缩得到 目标大小的 图片Data
  *
- *  @param OldImage 原图
- *  @param ShowSize 将要显示的分辨率
- *  @param FileSize 文件大小限制
+ *  @param oldImage 原图
+ *  @param showSize 将要显示的分辨率
+ *  @param fileSize 文件大小限制
  *
  *  @return 压缩得到的图片Data
  */
@@ -29,9 +29,9 @@ typedef void(^DataBlock)(NSData  *resultData);
 /**
  *  压缩得到 目标大小的 UIImage
  *
- *  @param OldImage 原图
- *  @param ShowSize 将要显示的分辨率
- *  @param FileSize 文件大小限制
+ *  @param oldImage 原图
+ *  @param showSize 将要显示的分辨率
+ *  @param fileSize 文件大小限制
  *
  *  @return 压缩得到的UIImage
  */
@@ -45,10 +45,10 @@ typedef void(^DataBlock)(NSData  *resultData);
  *  后台压缩得到 目标大小的 图片Data
     (使用block的结果，记得按需获取主线程)
  *
- *  @param OldImage  原图
- *  @param ShowSize  将要显示的分辨率
- *  @param FileSize  文件大小限制
- *  @param DataBlock 压缩成功后返回的block
+ *  @param oldImage  原图
+ *  @param showSize  将要显示的分辨率
+ *  @param fileSize  文件大小限制
+ *  @param dataBlock 压缩成功后返回的block
  */
 + (void)compressToDataAtBackgroundWithImage:(UIImage *)oldImage
                                    showSize:(CGSize)showSize
@@ -60,10 +60,10 @@ typedef void(^DataBlock)(NSData  *resultData);
  *  后台压缩得到 目标大小的 UIImage
     (使用block的结果，记得按需获取主线程)
  *
- *  @param OldImage 原图
- *  @param ShowSize 将要显示的分辨率
- *  @param FileSize 文件大小限制
- *  @param ImgBlock 压缩成功后返回的block
+ *  @param oldImage 原图
+ *  @param showSize 将要显示的分辨率
+ *  @param fileSize 文件大小限制
+ *  @param imgBlock 压缩成功后返回的block
  */
 + (void)compressToImageAtBackgroundWithImage:(UIImage *)oldImage
                                     showSize:(CGSize)showSize
